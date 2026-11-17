@@ -1,0 +1,28 @@
+# Local environments, credentials, and runtime data
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+private-data/
+private-fixtures/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local editor/OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
